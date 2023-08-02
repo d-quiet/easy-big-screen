@@ -11,7 +11,7 @@ const map = shallowRef<AMap.Map | null>(null)
 
 function initMap() {
   AMapLoader.load({
-		key: '1e7166f6d0b8f7f9be02f4f0f0944a26', // 申请好的Web端开发者Key，首次调用 load 时必填
+		key: '03aae639c6531d7d282d0775eaa24fb9', // 申请好的Web端开发者Key，首次调用 load 时必填
 		version: '2.0', // 指定要加载的 JSAPI 的版本，缺省时默认为 1.4.15
 		plugins: [], // 需要使用的的插件列表，如比例尺'AMap.Scale'等
 	}).then((MyAMap: typeof AMap)=>{
